@@ -1,0 +1,7 @@
+endgamer-loja/
+├── index.html
+├── style.css
+├── server.js
+└── .env
+npm init -y
+npm install express axios dotenv cors
