@@ -1,4 +1,18 @@
-"main": "src/server.js",
-"scripts": {
-  "start": "node src/server.js"
+{
+  "name": "end-gamer-store",
+  "version": "1.0.0",
+  "description": "Loja virtual de jogos para PC - End Gamer",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Walace Santos Sales",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "axios": "^1.7.2",
+    "dotenv": "^16.3.1"
+  }
 }
